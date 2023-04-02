@@ -16,9 +16,9 @@ The APIs provided by this application include the following:
 
 Before running this application, you must have the following softwares:
 
-Node.js
+Node.js https://nodejs.org/en
 
-MongoDB
+MongoDB https://www.mongodb.com/try/download/shell
 
 ## **How To Run Locally**
 - To run this project locally, use the following command in your CLI:
