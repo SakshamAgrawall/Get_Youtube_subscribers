@@ -1,14 +1,16 @@
-# Youtube Subscribers
+# Almabetter Capstone Project - Youtube Subscribers
 
 This project is a backend application that provides APIs for managing YouTube subscibers
 
+We have to create a backend api which will send the response in form of JSON, by using modular coding approach which contains having different files for the api connection, the database should be handled by another file
+
 The APIs provided by this application include the following:
 
--> `GET /subscribers`: Returns an array of all subscribers in the database.
+✅GET [http://localhost:3000/subscribers] - Response with an array of subscribers(an Object)
+✅GET [http://localhost:3000/subscribers/names] - Response with an array of subscribers(an Object with only two fields name and subscribedChannel)
+✅GET [http://localhost:3000/subscribers/:id] - Response with a subscriber*(an object)* with given id
 
--> `GET /subscribers/names`: Returns an array of subscribers with only two fields name and subscribedChannel
-
--> `GET /subscribers/:id`: Returns the details of a subscriber with the given ID.
+✅& Response with status code 400 and Error message({message: error.message}) if id does not match
 
 ## Prerequisites
 
@@ -18,7 +20,8 @@ Node.js
 
 MongoDB
 
-## Installation
+## **How To Run Locally**
+- To run this project locally, use the following command in your CLI:
 
 1. Clone this repository:
 
@@ -46,4 +49,16 @@ node createDatabase.js
 ```bash
  npm run start
 ```
+- Go to any Browser and search localhost:3000
 
+## Characteristics
+
+- User can get the all subscribers
+- User can get the all subscriber with only name and subscribedchannel
+- user can get the subscriber by id
+
+## 🛠 Skills
+ MongoDB | Nodejs | express | Mongoose
+ 
+## NOTE 
+ This capstone project is associated with <a href="https://www.almabetter.com">Almabetter</a>
