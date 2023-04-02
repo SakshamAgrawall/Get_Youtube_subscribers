@@ -23,13 +23,13 @@ MongoDB
 1. Clone this repository:
 
 ```bash
- git clone https://github.com/your-username/get-youtube-subscribers.git
+ git clone https://github.com/SakshamAgrawall/Get_Youtube_subscribers.git
 ```
 
 2. Install dependencies:
 
 ```bash
- npm install
+ npm i
 ```
 
 3. Create a .env file and add monogodb uri
@@ -37,7 +37,8 @@ MongoDB
 4. Create a database:
 
 ```bash
-node src/createDatabase.js
+cd src
+node createDatabase.js
 ```
 
 5. Start the application:
