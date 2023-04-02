@@ -1,6 +1,6 @@
-# Almabetter Capstone Project - Youtube Subscribers
+# Almabetter Capstone Project - Get Youtube Subscribers
 
-This project is a backend application that provides APIs for managing YouTube subscibers
+This project is a backend application that provides APIs for managing YouTube Subscibers
 
 We have to create a backend api which will send the response in form of JSON, by using modular coding approach which contains having different files for the api connection, the database should be handled by another file
 
