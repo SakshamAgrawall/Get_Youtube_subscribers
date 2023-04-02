@@ -12,7 +12,7 @@ The APIs provided by this application include the following:
 
 ## Prerequisites
 
-Before running this application, you must have the following installed:
+Before running this application, you must have the following softwares:
 
 Node.js
 
