@@ -1,18 +1,16 @@
 # Almabetter Capstone Project - Get Youtube Subscribers
 
-This project is a backend application that provides APIs for managing YouTube Subscibers
+This project is a backend application that provides APIs for managing YouTube Subscibers.
 
-We have to create a backend api which will send the response in form of JSON, by using modular coding approach which contains having different files for the api connection, the database should be handled by another file
+We have to create a backend api which will send the response in form of JSON, by using modular coding approach which contains having different files for the api connection, the database should be handled by another file.
 
 The APIs provided by this application include the following:
 
-✅GET [http://localhost:3000/subscribers] - Response with an array of subscribers(an Object)
+✅GET [http://localhost:3000/subscribers] - Response with an array of subscribers(an Object).
 
-✅GET [http://localhost:3000/subscribers/names] - Response with an array of subscribers(an Object with only two fields name and subscribedChannel)
+✅GET [http://localhost:3000/subscribers/names] - Response with an array of subscribers(an Object with only two fields name and subscribedChannel).
 
-✅GET [http://localhost:3000/subscribers/:id] - Response with a subscriber*(an object)* with given id
-
-✅& Response with status code 400 and Error message({message: error.message}) if id does not match
+✅GET [http://localhost:3000/subscribers/:id] - Response with a subscriber*(an object)* with given id & Response with status code 400 and Error message({message: error.message}) if id does not match.
 
 ## Prerequisites
 
@@ -55,9 +53,9 @@ node createDatabase.js
 
 ## Characteristics
 
-- User can get the all subscribers
-- User can get the all subscriber with only name and subscribedchannel
-- user can get the subscriber by id
+- User can get the all subscribers.
+- User can get the all subscriber with only name and subscribedchannel.
+- user can get the subscriber by id.
 
 ## 🛠 Skills
  MongoDB | Nodejs | express | Mongoose
