@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require("path");
-const Subscriber = require("./models/subscribers");
+const Subscriber = require("./src/models/subscribers");
 const app = express();
 
 
