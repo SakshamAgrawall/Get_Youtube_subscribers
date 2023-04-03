@@ -1,7 +1,10 @@
 const mongoose = require('mongoose')
 const subscriberModel = require('./models/subscribers')
 const data = require('./data')
-require("dotenv").config();
+const dotenv=require("dotenv");
+
+// configuration of env
+dotenv.config();
 
 // Connect to DATABASE
 const DATABASE_URL = process.env.DATABASE_URI || "mongodb://127.0.0.1:27017/subscribers";

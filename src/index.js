@@ -1,8 +1,11 @@
 const express = require('express')
 const app = require('./app.js')
 const mongoose = require('mongoose')
-require("dotenv").config();
-const port = process.env.port || 3000;
+const dotenv = require("dotenv")
+
+//configuring env
+dotenv.config();
+
 
 // Parse JSON bodies (as sent by API clients)
 app.use(express.json())
@@ -16,4 +19,5 @@ db.on('error', (err) => console.log(err))
 db.once('open', () => console.log('connected to database'))
 
 // Start Server
+const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`App listening on port ${port}!`));
